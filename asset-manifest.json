@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.f36884f6.css",
-    "main.js": "/static/js/main.88ffbef5.js",
-    "static/media/cash-pepe-1.png": "/static/media/cash-pepe-1.4f3435c83694a92bb4a7.png",
-    "static/media/0_nleHfywdU50Lp7uS.png": "/static/media/0_nleHfywdU50Lp7uS.6c94e6edce129739fe7c.png",
-    "static/media/pepe-gif-left.gif": "/static/media/pepe-gif-left.6b87efe7a15a040d3682.gif",
-    "static/media/pepe-gif-right.gif": "/static/media/pepe-gif-right.992901d70044a1e67dc6.gif",
-    "index.html": "/index.html",
-    "main.f36884f6.css.map": "/static/css/main.f36884f6.css.map",
-    "main.88ffbef5.js.map": "/static/js/main.88ffbef5.js.map"
+    "main.css": "/DpepeWebsite/static/css/main.ac92e6c9.css",
+    "main.js": "/DpepeWebsite/static/js/main.3f36cf93.js",
+    "static/media/cash-pepe-1.png": "/DpepeWebsite/static/media/cash-pepe-1.4f3435c83694a92bb4a7.png",
+    "static/media/0_nleHfywdU50Lp7uS.png": "/DpepeWebsite/static/media/0_nleHfywdU50Lp7uS.6c94e6edce129739fe7c.png",
+    "static/media/pepe-gif-left.gif": "/DpepeWebsite/static/media/pepe-gif-left.6b87efe7a15a040d3682.gif",
+    "static/media/pepe-gif-right.gif": "/DpepeWebsite/static/media/pepe-gif-right.992901d70044a1e67dc6.gif",
+    "index.html": "/DpepeWebsite/index.html",
+    "main.ac92e6c9.css.map": "/DpepeWebsite/static/css/main.ac92e6c9.css.map",
+    "main.3f36cf93.js.map": "/DpepeWebsite/static/js/main.3f36cf93.js.map"
   },
   "entrypoints": [
-    "static/css/main.f36884f6.css",
-    "static/js/main.88ffbef5.js"
+    "static/css/main.ac92e6c9.css",
+    "static/js/main.3f36cf93.js"
   ]
 }
