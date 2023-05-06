@@ -1,0 +1,102 @@
+.body-images-container {
+  display: flex;
+  justify-content: center;
+}
+
+.body-images-phase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  position: relative; /* Add this to all phases to position the images */
+}
+
+.body-images-phase-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  align-items: center;
+  margin: 0 auto; /* remove fixed margin and center the element horizontally */
+  height: auto; /* make the height dynamic based on the height of its content */
+}
+
+.body-images-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.body-images-item {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  background-color: #f1f1f113;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+}
+
+.body-images-item-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  color: white;
+}
+
+/* Media Query for Smaller Screen Sizes */
+@media (max-width: 768px) {
+  .body-images-container {
+    flex-direction: column;
+  }
+
+  .body-images-phase:nth-of-type(1) {
+    margin-top: 150px;
+  }
+
+  .body-images-phase:nth-of-type(1) img {
+    position: absolute;
+    top: 0;
+    left: -100px;
+    width: 200px;
+  }
+
+  .body-images-phase.with-background-image {
+    padding-left: 0;
+  }
+
+  .body-images-phase.with-background-image .body-images-phase-background-image {
+    display: none;
+  }
+}
+
+/* Set image dimensions */
+.body-images-phase-background-image {
+  width: 300px;
+  height: 100%;
+}
+
+/* Position the image behind Phase 1 */
+.body-images-phase:nth-of-type(1).with-background-image .body-images-phase-background-image {
+  position: absolute;
+  top: 0;
+  left: -200px;
+  background-image: url('./images/pepe-gif-left.gif');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+/* Position the image behind Phase 3 */
+.body-images-phase:nth-of-type(3).with-background-image .body-images-phase-background-image {
+  position: absolute;
+  top: 0;
+  right: -200px;
+  background-image: url('./images/pepe-gif-right.gif');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
